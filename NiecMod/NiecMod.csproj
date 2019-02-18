@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{8B827402-503D-44C0-8D84-CD51597F0CE6}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>NiecMod</RootNamespace>
+    <AssemblyName>NiecMod</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <NoStdLib>True</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+    <SignAssembly>False</SignAssembly>
+    <DelaySign>False</DelaySign>
+    <RunCodeAnalysis>False</RunCodeAnalysis>
+    <SourceAnalysisOverrideSettingsFile>C:\Users\Niec 2018\AppData\Roaming\ICSharpCode\SharpDevelop5\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="NiecS3Mod">
+      <HintPath>..\Lib\NiecS3Mod.dll</HintPath>
+    </Reference>
+    <Reference Include="NRaasRegister, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\LibSafe\NRaasRegister.dll</HintPath>
+    </Reference>
+    <Reference Include="ScriptCore">
+      <HintPath>..\Lib\LibSafe\ScriptCore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SimIFace">
+      <HintPath>..\Lib\LibSafe\SimIFace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sims3GameplayObjects">
+      <HintPath>..\Lib\LibSafe\Sims3GameplayObjects.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sims3GameplaySystems">
+      <HintPath>..\Lib\LibSafe\Sims3GameplaySystems.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sims3Metadata">
+      <HintPath>..\Lib\LibSafe\Sims3Metadata.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sims3StoreObjects">
+      <HintPath>..\Lib\LibSafe\Sims3StoreObjects.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="SystemMod">
+      <HintPath>..\Lib\SystemMod.dll</HintPath>
+    </Reference>
+    <Reference Include="UI">
+      <HintPath>..\Lib\LibSafe\UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CopMod\ArrestSuspectSituation.cs" />
+    <None Include="DisAllow\EmptASDy1.cs" />
+    <Content Include="CopMod\Class1.cs">
+      <SubType>Code</SubType>
+    </Content>
+    <Compile Include="DisAllow\NiecHelperSituation.cs" />
+    <Compile Include="Helpers\Annihilation.cs" />
+    <Compile Include="Helpers\Create.cs" />
+    <Compile Include="Interactions\AllActorsKillSim.cs" />
+    <Compile Include="Interactions\AllPauseNiec.cs" />
+    <Compile Include="Interactions\CancelAllInteractions.cs" />
+    <Content Include="Interactions\Class1.cs">
+      <SubType>Code</SubType>
+    </Content>
+    <Compile Include="Interactions\ExtKillSimNiec.cs" />
+    <Compile Include="Interactions\ExtKillSimNiecNoGrim.cs" />
+    <Compile Include="Interactions\ForceKillSimNiec.cs" />
+    <Compile Include="Interactions\ForceTestGrim.cs" />
+    <Compile Include="Interactions\ForceExitXXX.cs" />
+    <Compile Include="Interactions\HelloChatESRB.cs" />
+    <Compile Include="Interactions\Hidden\AllPauseNiecDone.cs" />
+    <Compile Include="Interactions\Hidden\CCnlean.cs" />
+    <Compile Include="Interactions\Hidden\NotKillSimNPCOnly.cs" />
+    <Compile Include="Interactions\KillForce.cs" />
+    <Compile Include="Interactions\KillInLotCurrent.cs" />
+    <Compile Include="Interactions\LineSAT.cs" />
+    <Compile Include="Interactions\ObjectNiec.cs" />
+    <Compile Include="Interactions\Objects\EnableAndDisble.cs" />
+    <Compile Include="Interactions\Objects\NiecObjectAsktoAdd.cs" />
+    <Compile Include="Interactions\Objects\TriasTrvalKiAsktoAdd.cs" />
+    <Compile Include="Interactions\ResetIntroTutorial.cs" />
+    <Compile Include="Interactions\TestAllKillSim.cs" />
+    <Compile Include="Interactions\TestReapSoul.cs" />
+    <None Include="TestGrimReaper\GrimReaperSituation.cs" />
+    <Compile Include="Interactions\TheNiecReapSoul.cs" />
+    <Compile Include="KillNiec\KillAnnihilationTask.cs" />
+    <Compile Include="KillNiec\KillTimerTask.cs" />
+    <Compile Include="KillNiec\MineKillHelper.cs" />
+    <Compile Include="MakeSimPro\MakeSim.cs" />
+    <Compile Include="Nra\NFinalizeDeath.cs" />
+    <Compile Include="Nra\NiecException.cs" />
+    <Compile Include="Nra\NiecModException.cs" />
+    <Compile Include="Nra\SpeedTrap.cs" />
+    <Compile Include="Nra\TimeDeather.cs" />
+    <Compile Include="Nra\NTunable.cs" />
+    <None Include="Objects\Javpan.cs" />
+    <Compile Include="Objects\TriasTrvalKi.cs" />
+    <None Include="Temp\Class1.cs" />
+    <Compile Include="Persistable Static\Class1.cs" />
+    <Compile Include="Task\AllDelDescTask.cs" />
+    <Compile Include="Temp\Class2.cs" />
+    <Compile Include="Utilities\LocalizeString.cs" />
+    <None Include="DisAllow\InstChild.cs" />
+    <None Include="DisAllow\Empty1.cs" />
+    <None Include="DisAllow\Police.cs" />
+    <Compile Include="Interactions\ForceAddFamily.cs" />
+    <Compile Include="Interactions\ForceEnableSave.cs" />
+    <Compile Include="Interactions\ForceRequestGrimReaper.cs" />
+    <Compile Include="Instantiator.cs" />
+    <Compile Include="KillNiec\KillSimNiec.cs" />
+    <Compile Include="Objects\DoorGuitar.cs" />
+    <Compile Include="Objects\DoorOfLifeAndDeath.cs" />
+    <Compile Include="Objects\NiecAutoKill.cs" />
+    <Compile Include="Objects\NiecObject.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

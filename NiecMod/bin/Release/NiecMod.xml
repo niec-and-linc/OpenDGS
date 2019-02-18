@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>NiecMod</name>
+	</assembly>
+	<members>
+		<member name="T:NiecMod.Interactions.ExtKillSimNiec">
+			<summary>
+            Fix no Exit ExtKillSimNiec to Focre Kill NPC ONLY
+            KillSim Is Helper By Nieca
+            Support Killing Baby The Sims 3 is Modified Support Killing Babies By Niec
+            </summary>
+		</member>
+		<member name="T:NiecMod.Interactions.ExtKillSimNiecNoGrim">
+			<summary>
+            Fix no Exit ExtKillSimNiec to Focre Kill NPC ONLY
+            KillSim Is Helper By Niec
+            Support Killing Baby The Sims 3 is Modified Support Killing Babies By Niec
+            </summary>
+		</member>
+		<member name="T:NiecMod.Interactions.ForceKillSimNiec">
+			<summary>
+            This a Focre Kill Sim From NPC Only.
+            </summary>
+		</member>
+		<member name="T:NiecMod.Interactions.Hidden.AllPauseNiecDone">
+			<summary>
+            This a Prevent cancel
+            Name is Pause Cancel Interaction
+            Prevent Cancel All Interactions Prevent OnReset Interaction And Prevent Cancel Interaction
+            </summary>
+		</member>
+		<member name="T:NiecMod.Interactions.KillForce">
+			<summary>
+            Summary of KillForce
+            </summary>
+		</member>
+		<member name="M:NiecMod.Nra.NiecException.PrintMessage(System.String)">
+			<summary>
+            Print message on screen
+            </summary>
+			<param name="message">
+			</param>
+		</member>
+		<member name="T:NiecMod.Nra.NiecModException">
+			<summary>
+            Description of NiecModException.
+            </summary>
+		</member>
+		<member name="T:Sims3.Gameplay.Objects.Niec.TriasTrvalKi">
+			<summary>
+            Description of Class1.
+            </summary>
+		</member>
+		<member name="T:NiecMod.Instantiator">
+			<summary>
+            Description of Scripting Mod Instantiator, value does not matter, only its existence.
+            </summary>
+		</member>
+		<member name="T:NiecMod.KillNiec.AssemblyCheckByNiec">
+			<summary>
+            Copy Code's NRaas
+            </summary>
+		</member>
+		<member name="T:NiecMod.KillNiec.KillSimNiecX">
+			<summary>
+            This a Helper KillSim
+            </summary>
+		</member>
+		<member name="M:NiecMod.KillNiec.KillSimNiecX.CanBeKilledX">
+			<summary>
+            This a Toaiyov
+            </summary>
+			<returns>
+			</returns>
+		</member>
+		<member name="M:NiecMod.KillNiec.KillSimNiecX.MineKill(Sims3.Gameplay.Actors.Sim,Sims3.Gameplay.CAS.SimDescription.DeathType)">
+			<summary>
+            This a Tosp
+            </summary>
+			<param name="target">
+			</param>
+			<param name="deathType">
+			</param>
+			<returns>
+			</returns>
+		</member>
+		<member name="M:NiecMod.KillNiec.KillSimNiecX.MineKill(Sims3.Gameplay.Actors.Sim,Sims3.Gameplay.CAS.SimDescription.DeathType,Sims3.Gameplay.Abstracts.GameObject)">
+			<summary>
+            This a Tos Stosiat
+            </summary>
+			<param name="target">
+			</param>
+			<param name="deathType">
+			</param>
+			<param name="otarget">
+			</param>
+			<returns>
+			</returns>
+		</member>
+		<member name="M:NiecMod.KillNiec.KillSimNiecX.MineKill(Sims3.Gameplay.Actors.Sim,Sims3.Gameplay.CAS.SimDescription.DeathType,Sims3.Gameplay.Abstracts.GameObject,System.Boolean)">
+			<summary>
+            This Aoapc
+            </summary>
+			<param name="target">
+			</param>
+			<param name="deathType">
+			</param>
+			<param name="obj">
+			</param>
+			<param name="playDeathAnim">
+			</param>
+			<returns>
+			</returns>
+		</member>
+		<member name="M:NiecMod.KillNiec.KillSimNiecX.CheckNiecKill(Sims3.Gameplay.Actors.Sim)">
+			<summary>
+            This Aotsa Aotos
+            </summary>
+			<param name="targetSim">
+			</param>
+			<returns>
+			</returns>
+		</member>
+		<member name="M:NiecMod.KillNiec.KillSimNiecX.MineKillForceCancelInteraction(Sims3.Gameplay.Actors.Sim)">
+			<summary>
+            This A Focre Cancel
+            </summary>
+			<param name="mineactor">Actor and Target Sim</param>
+		</member>
+	</members>
+</doc>

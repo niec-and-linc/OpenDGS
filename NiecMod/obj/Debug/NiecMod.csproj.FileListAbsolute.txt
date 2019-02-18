@@ -1,0 +1,22 @@
+C:\Users\Niec 2018\Documents\SharpDevelop Projects\NiecMod\NiecMod\obj\Debug\NiecMod.csprojResolveAssemblyReference.cache
+C:\Users\Niec 2018\Documents\SharpDevelop Projects\NiecMod\NiecMod\bin\Debug\NiecMod.dll
+C:\Users\Niec 2018\Documents\SharpDevelop Projects\NiecMod\NiecMod\bin\Debug\NiecMod.pdb
+C:\Users\Niec 2018\Documents\SharpDevelop Projects\NiecMod\NiecMod\bin\Debug\UI.dll
+C:\Users\Niec 2018\Documents\SharpDevelop Projects\NiecMod\NiecMod\obj\Debug\NiecMod.dll
+C:\Users\Niec 2018\Documents\SharpDevelop Projects\NiecMod\NiecMod\obj\Debug\NiecMod.pdb
+C:\Users\Niec 2018\Documents\SharpDevelop Projects\NiecMod\NiecMod\bin\Debug\NRaasRegister.dll
+E:\My OAS\NiecMod\NiecMod\bin\Debug\NiecMod.dll
+E:\My OAS\NiecMod\NiecMod\bin\Debug\NiecMod.pdb
+E:\My OAS\NiecMod\NiecMod\bin\Debug\NRaasRegister.dll
+E:\My OAS\NiecMod\NiecMod\bin\Debug\UI.dll
+E:\My OAS\NiecMod\NiecMod\obj\Debug\ResolveAssemblyReference.cache
+E:\My OAS\NiecMod\NiecMod\obj\Debug\NiecMod.dll
+E:\My OAS\NiecMod\NiecMod\obj\Debug\NiecMod.pdb
+E:\My OAS\Niec And Linc\NiecMod\bin\Debug\NiecMod.dll
+E:\My OAS\Niec And Linc\NiecMod\bin\Debug\NiecMod.pdb
+E:\My OAS\Niec And Linc\NiecMod\bin\Debug\NiecS3Mod.dll
+E:\My OAS\Niec And Linc\NiecMod\bin\Debug\NRaasRegister.dll
+E:\My OAS\Niec And Linc\NiecMod\bin\Debug\UI.dll
+E:\My OAS\Niec And Linc\NiecMod\obj\Debug\ResolveAssemblyReference.cache
+E:\My OAS\Niec And Linc\NiecMod\obj\Debug\NiecMod.dll
+E:\My OAS\Niec And Linc\NiecMod\obj\Debug\NiecMod.pdb
